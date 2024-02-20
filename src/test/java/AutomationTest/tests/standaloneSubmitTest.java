@@ -31,7 +31,7 @@ public class standaloneSubmitTest extends BaseTest {
 	String item = "ADIDAS ORIGINAL";
 
 	//Obtained Data from Json file method(i.e - getData() method) will be passed to below method through DataProvider
-	// Data retrived is captured in method arguments by creating HashMap
+	//Data retrived is captured in method arguments by creating HashMap
 	@Test(dataProvider = "getData", groups = {"CreateOrder"})
 	public void submitOrder(HashMap<String, String> input) throws IOException {
 

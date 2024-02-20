@@ -18,7 +18,7 @@ public class orderPage extends ReuseMethods {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-
+	
 	@FindBy(css = "tr td:nth-child(3)")
 	List<WebElement> productNames;
 
