@@ -10,7 +10,7 @@
     <classes>
       <class name="AutomationTest.tests.standaloneSubmitTest">
         <methods>
-          <include name="submitOrder" invocation-numbers="0"/>
+          <include name="submitOrder" invocation-numbers="1"/>
           <include name="launchApplication"/>
           <include name="tearDown"/>
         </methods>
