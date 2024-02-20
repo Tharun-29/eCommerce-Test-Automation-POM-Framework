@@ -1,4 +1,4 @@
-package AutomationTest.SeleniumFrameworkDesign;
+package AutomationTest.tests;
 
 import java.time.Duration;
 import java.util.List;

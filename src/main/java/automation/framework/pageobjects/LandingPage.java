@@ -38,6 +38,11 @@ public class LandingPage extends ReuseMethods {
 	@FindBy(id = "login")
 	WebElement submit;
 	
+	//css class for Invalid Login Error message -  .ng-tns-c4-21.ng-star-inserted.ng-trigger.ng-trigger-flyInOut.ngx-toastr.toast-error
+	
+	@FindBy(css = "[class*='flyInOut']")
+	WebElement errorMessage;
+	
 	public ProductCatalogue LoginApplication(String email,String pass) {
 		loginId.sendKeys(email);
 		password.sendKeys(pass);
@@ -45,8 +50,13 @@ public class LandingPage extends ReuseMethods {
 		ProductCatalogue productCatalogue = new ProductCatalogue(driver);
 		return productCatalogue;
 	}
-	
+		
 	public void goTo() {
 		driver.get("https://rahulshettyacademy.com/client");
+	}
+	
+	public String getErrorMessage() {
+		waitForWebElementToAppear(errorMessage);
+		return errorMessage.getText();
 	}
 }
