@@ -1,4 +1,4 @@
-Selenium Framework for E-commerce Automated Testing This repository contains a Selenium Framework built using the Page Object Model (POM) for automated testing of e-commerce applications. The framework provides a structured approach for writing maintainable and scalable automated tests, leveraging the power of Selenium WebDriver.
+Selenium Framework for E-commerce Automated Testing. This repository contains a Selenium Framework built using the Page Object Model (POM) for automated testing of e-commerce applications. The framework provides a structured approach for writing maintainable and scalable automated tests, leveraging the power of Selenium WebDriver.
 
 Features
 
