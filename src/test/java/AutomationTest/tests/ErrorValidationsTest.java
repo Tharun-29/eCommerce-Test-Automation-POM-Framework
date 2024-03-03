@@ -13,13 +13,13 @@ import automation.framework.pageobjects.ProductCatalogue;
 public class ErrorValidationsTest extends BaseTest {
 
 	@Test(groups = {"ErrorHandling"})
-	public void submitOrder() throws IOException {
+	public void LoginErrorValidation() throws IOException {
 
 		String item = "ADIDAS ORIGINAL";
 
 		lpage.LoginApplication("DaviaMDiaz@rhyta.com", "David4321");
 		
-		Assert.assertEquals("Incorrect email or password.", lpage.getErrorMessage());
+		Assert.assertEquals("Incorrt email or password.", lpage.getErrorMessage());
 	  
 	  
 		
