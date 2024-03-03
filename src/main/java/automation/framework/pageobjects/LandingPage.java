@@ -12,7 +12,6 @@ public class LandingPage extends ReuseMethods {
 
 	WebDriver driver;
 	
-	
     //constructor of Landing Page (First thing execute in class is constructor)
 	public LandingPage(WebDriver driver) {
 		//initialization
