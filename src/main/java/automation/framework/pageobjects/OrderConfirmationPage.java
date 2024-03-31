@@ -25,4 +25,11 @@ public class OrderConfirmationPage {
 		String CustomerOrderId = orderConfirmation.findElement(orderId).getText().split("\\|")[1].trim();
 		System.out.print(CustomerOrderId);
 	}
+
+	public String getOrderConfirmationMessage() {
+		
+		String orderConfirmationMessage = orderConfirmation.findElement(By.xpath("//tr//td[@class='box']//h1")).getText();
+		
+		return orderConfirmationMessage;
+	}
 }
