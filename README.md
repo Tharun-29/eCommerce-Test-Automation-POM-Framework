@@ -7,3 +7,7 @@ Selenium WebDriver: Enables automated interaction with web browsers for testing 
 Modular Design: Facilitates easy addition and modification of test cases.
 Configurable: Supports configuration for different environments (e.g., development, staging, production).
 Reporting: Generates detailed test reports for easy analysis and debugging.
+
+
+Automated Framework Test Run Trigger Output via Jenkins Tool -
+![Framework_TestRun](https://github.com/Tharun-29/eCommerce-Test-Automation-POM-Framework/assets/60356829/564b93c3-acf3-4d77-ac44-5fdb3840bd4c)
